@@ -1,0 +1,22 @@
+[package]
+name = "tutor-nodb"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+default-run = "tutor-service"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web.workspace = true
+dotenv.workspace = true
+env_logger.workspace = true
+log.workspace = true
+error-stack.workspace = true
+derive_more.workspace = true
+chrono.workspace = true
+serde.workspace = true
+uuid.workspace = true
+
+[dev-dependencies]
+pretty_assertions.workspace = true

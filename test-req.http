@@ -1,0 +1,11 @@
+### Health check
+GET http://localhost:3000/health
+
+### Create Course
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{
+    "tutor_id": "5e232769-c0a0-4058-92d5-662ab32d3c40",
+    "course_name": "Course 2"
+}
